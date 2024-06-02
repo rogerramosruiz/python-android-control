@@ -1,4 +1,4 @@
-from control.screen import press, swipe
+from control.actions import press, swipe
 
 if __name__ == '__main__':
     # press(491.1, 1280.5)
