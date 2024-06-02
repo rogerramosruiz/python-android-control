@@ -24,7 +24,3 @@ def get_event():
 def load_event():
     with open(event_file, 'r') as f:
         return f.read()
-    
-if __name__ == '__main__':
-    # get_event()
-    print(load_event())
